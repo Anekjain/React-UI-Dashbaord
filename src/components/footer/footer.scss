@@ -1,1 +1,6 @@
-.footer{}
+.footer{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding: 1.25rem;
+}
