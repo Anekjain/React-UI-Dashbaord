@@ -1,3 +1,46 @@
 .navbar{
+  width: 100%;
+  padding: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
+  .logo{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: .625rem;
+  }
+
+  .notification {
+    position: relative;
+    span{
+        background-color: darkgrey;
+        color: aliceblue;
+        width: 1.2rem;
+        height: 1.2rem;
+        border-radius: 50%;
+        position: absolute;
+        top: -0.875rem;
+        right: -0.875rem;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+  }
+
+  .icons{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    
+    .user{
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
+    }
+
+   
+  
+    }
 }
